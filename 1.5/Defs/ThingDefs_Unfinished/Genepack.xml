@@ -1,0 +1,16 @@
+<Defs>
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>GeneFab_UnfinishedGenepack</defName>
+    <label>unfinished genepack</label>
+    <description>An unfinished gene pack.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/Unfinished_GenePack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(122, 115, 113)</color>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  </Defs>

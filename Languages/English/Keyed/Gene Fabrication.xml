@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GeneFab.Recipe.label>Fabricate genepack: {0}</GeneFab.Recipe.label>
+	<GeneFab.Recipe.jobString>Fabricating genepack: {0}</GeneFab.Recipe.jobString>
+	<GeneFab.Recipe.description>Fabricate a genepack of the {0} gene</GeneFab.Recipe.description>
+	<GeneFab_GeneUITitle>Choose a gene to craft:</GeneFab_GeneUITitle>
+	<GeneFab_CreateGenepack>Create a genepack</GeneFab_CreateGenepack>
+	<GeneFab_ResearchThis>Requires research</GeneFab_ResearchThis>
+	<GeneFab_CreateGenepackDesc>Create a genepack</GeneFab_CreateGenepackDesc>
+	<GeneFab_Blacklisted>This gene is blacklisted and won't show up in game</GeneFab_Blacklisted>
+	<GeneFab_BlackListSimple>Blacklist</GeneFab_BlackListSimple>
+	<GeneFab_BlacklistedButton>Allows you to blacklist genes from crafting</GeneFab_BlacklistedButton>
+	<GeneFab_NeutroamineMultiplier>Neutroamine cost multiplier</GeneFab_NeutroamineMultiplier>
+	<GeneFab_ArchiteMultiplier>Archite capsules cost multiplier</GeneFab_ArchiteMultiplier>
+	<GeneFed_WorkMultiplier>Work amount multiplier</GeneFed_WorkMultiplier>
+	
+	<!-- 1.6+ -->
+	<GeneFab_OpenBlacklistMenu>Open Blacklist</GeneFab_OpenBlacklistMenu>
+	<GeneFab_Blacklist>Blacklist</GeneFab_Blacklist>
+	<GeneFab_Unblacklist>UnBlacklist</GeneFab_Unblacklist>
+	<GeneFab_LegacyUI>Legacy UI</GeneFab_LegacyUI>
+	<GeneFab_GeneUITitleBlacklist>Choose a gene to blacklist:</GeneFab_GeneUITitleBlacklist>
+	<GeneFab_GeneUIGeneError>This gene had an internal error while generating its recipe, as such it cannot be crafted. File a bug report on Steam through the Bug Report discussion.</GeneFab_GeneUIGeneError>
+	<GeneFab_BanAstrogenes>Removes AstroGenes from VE StarJack from the crafting pool.</GeneFab_BanAstrogenes>
+	<GeneFab_BanAstrogenes_Tooltip>Removes AstroGenes from VE StarJack from the crafting pool. Note that this only applies to the custom Gene Fabrication UI.</GeneFab_BanAstrogenes_Tooltip>
+	<GeneFab_DisableUI>Disable UI</GeneFab_DisableUI>
+	<GeneFab_DisableUI_Tooltip>Disable the custom Gene Fabrication UI. Use this if you're using another crafting overhaul mod and are suffering from odd UI incompatibilities.</GeneFab_DisableUI_Tooltip>
+	<GeneFab_NiceBillTabIncompatibility_Title>Incompatibility</GeneFab_NiceBillTabIncompatibility_Title>
+	<GeneFab_NiceBillTabIncompatibility_Description>We've detected that you've started or loaded a game with Nice Bill Tab and Gene Fabrication. Gene Fabrication's custom UI conflicts with Nice Bill Tab, turn it off in Gene Fabrication's mod config. This warning will not repeat for this save file.</GeneFab_NiceBillTabIncompatibility_Description>
+	<GeneFab_LegacyUI_Tooltip>Toggles the use of the legacy 1.5 UI.
+		
+Do not report bugs about this UI, it is no longer maintained</GeneFab_LegacyUI_Tooltip>
+</LanguageData>

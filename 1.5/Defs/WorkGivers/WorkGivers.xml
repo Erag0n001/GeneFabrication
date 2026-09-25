@@ -1,0 +1,18 @@
+<Defs>
+  <WorkGiverDef>
+    <defName>GeneFab_DoBillsGeneBench</defName>
+    <label>craft gene</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Research</workType>
+    <verb>research</verb>
+    <gerund>crafting genes at</gerund>
+    <priorityInType>100</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>GeneFab_GeneBench</li>
+    </fixedBillGiverDefs>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+</Defs>
