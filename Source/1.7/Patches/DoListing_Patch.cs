@@ -1,12 +1,10 @@
-﻿using System;
-using System.Reflection;
-using GeneFabrication.Core;
+﻿using System.Numerics;
 using GeneFabrication.Core.Config;
 using GeneFabrication.UI;
 using HarmonyLib;
 using RimWorld;
-using UnityEngine;
 using Verse;
+using Waylith.Math;
 using ThingDefOf = GeneFabrication.Core.ThingDefOf;
 
 namespace GeneFabrication.Patches;
@@ -25,7 +23,7 @@ public static class DoListingPatch
 		if (ModConfigs.DisableUI) {
 			return;
 		}
-		var rect = new Rect(0f, 0f, WinSize.x, WinSize.y).ContractedBy(10f);
+		var rect = new UnityEngine.Rect(0f, 0f, WinSize.X, WinSize.Y).ContractedBy(10f);
 		Widgets.BeginGroup(rect);
 		var building = SelTableDel(__instance);
 		if(building == null) return;
@@ -36,7 +34,7 @@ public static class DoListingPatch
 				Printer.Error("Error while creating UI for bench for Gene Fabrication, no billstack? Mod incompatibility?");
 				return;
 			}
-			var rect2 = new Rect(0f, 0f, 150f, 29f);
+			var rect2 = new UnityEngine.Rect(0f, 0f, 150f, 29f);
 			if(Widgets.ButtonText(rect2, "")) {
 				Window window = ModConfigs.LegacyUI
 #pragma warning disable CS0612 // Type or member is obsolete

@@ -192,7 +192,7 @@ public class GenePicker : Window
 					GUI.color = color;
 					GUI.Box(totalGeneRect, "");
 					GUI.color = previous;
-					Printer.ErrorOnce($"Error while rendering {gene.defName}, no recipes found, ignoring", HashCode.Combine(gene.shortHash, "GeneFabrication".GetHashCode()));
+					Printer.ErrorOnce($"Error while rendering {gene.defName}, no recipes found, ignoring", gene.shortHash.GetHashCode()*  "GeneFabrication".GetHashCode());
 					continue;
 				}
 

@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using GeneFabrication.Core.Config;
 using HarmonyLib;
 using RimWorld;
-using UnityEngine;
 using Verse;
+using Waylith.Math;
+using Waylith.Rendering;
 
 namespace GeneFabrication.Core;
 
@@ -72,9 +74,9 @@ public static class RecipeDefGenerator
 		IngredientCount neutroamine = new();
 		neutroamine.SetBaseCount((int)(Mathf.Clamp(
 			100
-			+ Mathf.Abs(gene.biostatCpx) * 25
-			+ Mathf.Abs(gene.biostatMet) * 25
-			+ Mathf.Abs(gene.biostatArc) * 50,
+			+ Math.Abs(gene.biostatCpx) * 25
+			+ Math.Abs(gene.biostatMet) * 25
+			+ Math.Abs(gene.biostatArc) * 50,
 			50, 400) * ModConfigs.NeutroamineMultiplier));
 		neutroamine.filter.SetAllow(ThingDefOf.Neutroamine, allow: true);
 		List<IngredientCount> ingredients = [neutroamine];

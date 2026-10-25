@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>GeneFabrication</defName>
+        <label>Genetic Fabrication</label>
+        <description>Gain access to build multianalyzers capable of utilizing basic and dark archotechnology.</description>
+        <baseCost>6000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+			<li>GeneProcessor</li>
+			<li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>15</researchViewX>
+        <researchViewY>5.00</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

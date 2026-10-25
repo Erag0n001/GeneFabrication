@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-		<TargetFramework>net481</TargetFramework>
-		<OutputPath>..\..\1.6\Assemblies</OutputPath>
+		<TargetFramework>net10.0</TargetFramework>
+		<OutputPath>..\..\1.7\Assemblies</OutputPath>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
 		<AppendConfigurationToOutputPath>false</AppendConfigurationToOutputPath>
@@ -26,12 +26,12 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4488-beta" />
-		<PackageReference Include="Lib.Harmony" Version="2.3.*" ExcludeAssets="runtime" />
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.7.4985-unstable" />
+		<PackageReference Include="Lib.Harmony" Version="3.0.0-rc.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<AdditionalFiles
-				Include="..\..\1.6\Defs\**\*.xml"
+				Include="..\..\1.7\Defs\**\*.xml"
 				Link="Defs\%(RecursiveDir)%(Filename)%(Extension)" />
 		<AdditionalFiles
 				Include="..\..\Languages\**\*.xml"
