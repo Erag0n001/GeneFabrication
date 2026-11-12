@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Gene Fabrication</name>
-	<modVersion IgnoreIfNoMatchingField="True">1.1.10</modVersion>
+	<packageId>AmCh.Eragon.HCGeneFabrication</packageId>
 	<authors>
 		<li>AmCh</li>
 		<li>HappyCam</li>
 		<li>Eragon</li>
 	</authors>
+	<modVersion IgnoreIfNoMatchingField="True">1.1.11</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/HCIcon</modIconPath>
-	<packageId>AmCh.Eragon.HCGeneFabrication</packageId>
+	<description>Adds the Gene Fabrication Workbench.</description>
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.6</li>
@@ -31,6 +32,4 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 	</loadAfter>
-	<description>Adds the Gene Fabrication Workbench.
-	</description>
 </ModMetaData>
