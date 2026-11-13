@@ -7,7 +7,7 @@
 		<li>HappyCam</li>
 		<li>Eragon</li>
 	</authors>
-	<modVersion IgnoreIfNoMatchingField="True">1.1.11</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.1.12</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/HCIcon</modIconPath>
 	<description>Adds the Gene Fabrication Workbench.</description>
 	<supportedVersions>
