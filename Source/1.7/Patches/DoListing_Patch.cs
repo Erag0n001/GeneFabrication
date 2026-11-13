@@ -1,8 +1,8 @@
-﻿using System.Numerics;
-using GeneFabrication.Core.Config;
+﻿using GeneFabrication.Core.Config;
 using GeneFabrication.UI;
 using HarmonyLib;
 using RimWorld;
+using UnityEngine;
 using Verse;
 using Waylith.Math;
 using ThingDefOf = GeneFabrication.Core.ThingDefOf;
@@ -23,7 +23,7 @@ public static class DoListingPatch
 		if (ModConfigs.DisableUI) {
 			return;
 		}
-		var rect = new UnityEngine.Rect(0f, 0f, WinSize.X, WinSize.Y).ContractedBy(10f);
+		var rect = new UnityEngine.Rect(0f, 0f, WinSize.x, WinSize.y).ContractedBy(10f);
 		Widgets.BeginGroup(rect);
 		var building = SelTableDel(__instance);
 		if(building == null) return;
